@@ -24,29 +24,14 @@
 .todoformcontainer{
   border: 3px solid white;
   height: auto;
-  width: fit-content;
+  width: 60vw;
   padding: 7px;
   flex-direction: row;
+  margin:10px;
 }
-
-.todoformcontainer{
-  border: 3px solid white;
-  height: auto;
-  width: fit-content;
-  padding: 7px;
-  flex-direction: row;
-}
-
-.todoformcontainer{
-  border: 3px solid white;
-  height: auto;
-  width: fit-content;
-  padding: 7px;
-  flex-direction: row;
-}
-
 input[type=text]{
-  width: 700px;
+  max-width: 700px;
+  width: 40vw;
   height: 55px;
   font-size: 25px;
   font-family: sans-serif;
@@ -55,7 +40,7 @@ input[type=text]{
 }
 .addButton{
   height: 55px;
-  margin: 2px;
+  margin: 8px;
   padding-bottom: 7px;
   background-color: #282c34;
   color: aliceblue;
@@ -66,28 +51,27 @@ input[type=text]{
 .todoItem{
   font-size: 25px;
   color: aliceblue;
-  margin: 10px;
+  padding: 15px;
+  overflow-wrap: break-word;
 }
 
 .greenitemcontainer{
   border: 3px solid green;
   height: auto;
-  width: fit-content;
+  width: 60vw;
   padding: 10px;
-  flex-direction: row;
   margin: 10px;
 }
 .reditemcontainer{
   border: 3px solid red;
   height: auto;
-  width: fit-content;
+  width: 60vw;
   padding: 10px;
-  flex-direction: row;
   margin: 10px;
 }
 .delButton{
   height: 30px;
-  margin: 2px;
+  margin: 5px;
   padding-bottom: 7px;
   background-color: #282c34;
   color: red;
@@ -97,7 +81,7 @@ input[type=text]{
 }
 .compButton{
   height: 30px;
-  margin: 2px;
+  margin: 5px;
   padding-bottom: 7px;
   background-color: #282c34;
   color: green;

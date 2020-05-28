@@ -8,7 +8,13 @@ const TodoForm = ({addTodo}) => {
           inputEle = a;
         }} />
         <button className ="addButton" onClick={() => {
-          addTodo(inputEle.value);
+          if(inputEle.value !== ''){
+            addTodo(inputEle.value);
+          }
+          else{
+            alert("Todo cannot be empty");
+          }
+          
           inputEle.value = '';
         }}>
           &#10010;
