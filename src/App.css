@@ -1,38 +1,107 @@
 .App {
+  background-color: #282c34;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  /* justify-content: center; */
+  align-items: center;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: darkturquoise;
+  height: 100px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: calc(15px + 2vmin);
+  color:  #282c34;
+  margin-bottom:50px;
 }
 
-.App-link {
-  color: #61dafb;
+.todoformcontainer{
+  border: 3px solid white;
+  height: auto;
+  width: fit-content;
+  padding: 7px;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todoformcontainer{
+  border: 3px solid white;
+  height: auto;
+  width: fit-content;
+  padding: 7px;
+  flex-direction: row;
+}
+
+.todoformcontainer{
+  border: 3px solid white;
+  height: auto;
+  width: fit-content;
+  padding: 7px;
+  flex-direction: row;
+}
+
+input[type=text]{
+  width: 700px;
+  height: 55px;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin:2px;
+  color: #282c34;
+}
+.addButton{
+  height: 55px;
+  margin: 2px;
+  padding-bottom: 7px;
+  background-color: #282c34;
+  color: aliceblue;
+  font-size: 35px;
+  outline: none;
+}
+
+.todoItem{
+  font-size: 25px;
+  color: aliceblue;
+  margin: 10px;
+}
+
+.greenitemcontainer{
+  border: 3px solid green;
+  height: auto;
+  width: fit-content;
+  padding: 10px;
+  flex-direction: row;
+  margin: 10px;
+}
+.reditemcontainer{
+  border: 3px solid red;
+  height: auto;
+  width: fit-content;
+  padding: 10px;
+  flex-direction: row;
+  margin: 10px;
+}
+.delButton{
+  height: 30px;
+  margin: 2px;
+  padding-bottom: 7px;
+  background-color: #282c34;
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  outline: none;
+}
+.compButton{
+  height: 30px;
+  margin: 2px;
+  padding-bottom: 7px;
+  background-color: #282c34;
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+  outline: none;
 }
